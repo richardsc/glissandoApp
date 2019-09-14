@@ -37,11 +37,11 @@ ui <- fluidPage(
       sliderTextInput("start",
                       "Start Note",
                       choices=rev(d$name),
-                      selected='Ds3'),
+                      selected='Ds3', grid=TRUE),
       sliderTextInput("end",
                       "End Note",
                       choices=rev(d$name),
-                      selected='Ds7')
+                      selected='Ds7', grid=TRUE)
     ),
 
     mainPanel(
